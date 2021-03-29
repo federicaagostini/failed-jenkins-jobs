@@ -17,3 +17,7 @@ Set the environment variables USERNAME and API_TOKEN in .env file, then run the 
 OR
 
 `USERNAME=<user> API_TOKEN=<token> python3 failed-jenkins-jobs.py`
+
+## Docker
+
+A docker image of the script is available in [fagostini/failed-jenkins-jobs](https://hub.docker.com/r/fagostini/failed-jenkins-jobs/tags)
