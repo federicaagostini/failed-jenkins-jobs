@@ -20,4 +20,7 @@ OR
 
 ## Docker
 
-A docker image of the script is available in [fagostini/failed-jenkins-jobs](https://hub.docker.com/r/fagostini/failed-jenkins-jobs/tags)
+A docker image of the script is available in [fagostini/failed-jenkins-jobs](https://hub.docker.com/r/fagostini/failed-jenkins-jobs/tags).  
+Run it with
+
+`docker run -e USERNAME=<user> -e API_TOKEN=<token> fagostini/failed-jenkins-jobs`
